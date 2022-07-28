@@ -7,7 +7,7 @@ Get-CimInstance -ClassName Win32_Service -Filter "Name='WinDefend'" | Select-Obj
 #Get Windows Defender information directly from WMI
 Get-CimInstance -Namespace "ROOT/Microsoft/Windows/Defender"-ClassName MSFT_MpComputerStatus 
 
-#Check if the third-party AV still is installed
+#Check if the third-party AV still installed
 Get-CimInstance -Namespace "ROOT\SecurityCenter2" -ClassName AntiVirusProduct
 
 #Windows Defender should run under the C:\ProgramData folder.If this folder is empty, then something is wrong.
