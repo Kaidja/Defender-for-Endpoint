@@ -54,3 +54,12 @@ Else{
 #On some servers enhanced Defender AV package does not install and you need to make sure that WinDefend key is removed before the installation
 #Affected servers mostly 2012R2 servers
 Test-Path -Path "HKLM:\SYSTEM\CurrentControlSet\Services\WinDefend"
+
+#Check Defender for Endpoint Onboardind state through registry
+$RegKey = Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status" -Name OnboardingState -ErrorAction SilentlyContinue
+If($RegKey -and $RegKey.OnboardingState -eq 1){
+    Write-Host "OK"
+}
+Else{
+    Write-Host "BROKEN"
+}
