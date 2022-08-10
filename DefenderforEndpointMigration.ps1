@@ -40,3 +40,17 @@ If($DefenderAVRole.InstallState -eq "Installed"){
 Else{
     Write-Host -Object "NOTOK"
 }
+
+#On some servers enhanced Defender AV package does not install and you need to make sure that DisableAntiSpyware key is removed before the installation
+#Affected servers mostly 2012R2 servers
+$RegKey = Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows Defender" -Name DisableAntiSpyware -ErrorAction SilentlyContinue
+If($RegKey -and $RegKey.DisableAntiSpyware -eq 1){
+    Write-Host "BROKEN"
+}
+Else{
+    Write-Host "NOTBROKEN"
+}
+
+#On some servers enhanced Defender AV package does not install and you need to make sure that WinDefend key is removed before the installation
+#Affected servers mostly 2012R2 servers
+Test-Path -Path "HKLM:\SYSTEM\CurrentControlSet\Services\WinDefend"
