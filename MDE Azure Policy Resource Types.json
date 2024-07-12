@@ -1,5 +1,5 @@
 {
-  "supportedVMTypes": ["Microsoft.Compute/virtualMachines"],
+  "supportedVMTypes": ["microsoft.compute/virtualmachines"],
   "supportedOSTypes": ["Windows", "Linux"],
   "excludedPublishers": [
     "AzureDatabricks",
