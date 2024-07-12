@@ -1,9 +1,45 @@
 {
-  "supportedVMTypes": "Microsoft.Compute/virtualMachines",
-  "supportedOSTypes": "Windows,Linux",
-  "excludedPublishers": "AzureDatabricks,azureopenshift,cisco,fortinet,juniper-networks,barracudanetworks,checkpoint,imperva,qualysguard,f5-networks,paloaltonetworks,rohdeschwarzcybersecuritysas,sonicwall-inc,esdenera,brocade_communications,5nine-software-inc,forcepoint-llc,hillstone-networks,netgate,microsoft-aks",
-  "excludedImageSkus": "win7,win8,2008,centos-6*",
-  "excludedImageOffers": "windows-10",
-  "excludedOfferContains": "firewall",
-  "defaultSupport": "true"
+  "supportedVMTypes": ["Microsoft.Compute/virtualMachines"],
+  "supportedOSTypes": ["Windows", "Linux"],
+  "excludedPublishers": [
+    "AzureDatabricks",
+    "azureopenshift",
+    "cisco",
+    "fortinet",
+    "juniper-networks",
+    "barracudanetworks",
+    "checkpoint",
+    "imperva",
+    "qualysguard",
+    "f5-networks",
+    "paloaltonetworks",
+    "rohdeschwarzcybersecuritysas",
+    "sonicwall-inc",
+    "esdenera",
+    "brocade_communications",
+    "5nine-software-inc",
+    "forcepoint-llc",
+    "hillstone-networks",
+    "netgate",
+    "microsoft-aks"
+  ],
+  "excludedSkus": [
+    {"sku": "win7", "osType": "Windows"},
+    {"sku": "win8", "osType": "Windows"},
+    {"sku": "2008", "osType": "Windows"},
+    {"sku": "centos-6*", "osType": "Linux"}
+  ],
+  "excludedOffers": [
+    {"offer": "windows-10", "osType": "Windows"},
+    {"offer": "sles-sap-15-sp4-byos", "osType": "Linux"}
+  ],
+  "specialCases": [
+    {
+      "os": "Windows",
+      "publisher": "MicrosoftWindowsDesktop",
+      "skuPattern": "evd",
+      "isSupported": true
+    }
+  ],
+  "defaultSupport": true
 }
