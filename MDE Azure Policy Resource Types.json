@@ -37,8 +37,7 @@
     {
       "os": "Windows",
       "publisher": "MicrosoftWindowsDesktop",
-      "skuPattern": "evd",
-      "isSupported": true
+      "skuPattern": "evd"
     }
   ],
   "defaultSupport": true
