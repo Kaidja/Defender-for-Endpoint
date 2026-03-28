@@ -1,0 +1,1744 @@
+{
+  "scid-15": {
+    "platform": "Windows",
+    "name": "Enable Automatic Updates",
+    "function": "Microsoft Office",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Controls whether the Office automatic updates are enabled or disabled for all Office products installed by using Click-to-Run. This policy has no effect on Office products installed via Windows Installer.",
+    "impact": 5
+  },
+  "scid-16": {
+    "platform": "Windows",
+    "name": "Enable 'Hide Option to Enable or Disable Updates'",
+    "function": "Microsoft Office",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Controls whether to hide the user interface (UI) options to enable or disable Office automatic updates from users.",
+    "impact": 5
+  },
+  "scid-19": {
+    "platform": "Windows",
+    "name": "Disable 'Continue running background apps when Google Chrome is closed'",
+    "function": "Google Chrome",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Chrome allows for processes started while the browser is open to remain running once the browser has been closed. It also allows for background apps and the current browsing session to remain active after the browser has been closed. Disabling this feature will stop all processes and background applications when the browser window is closed.",
+    "impact": 5
+  },
+  "scid-22": {
+    "platform": "Windows",
+    "name": "Disable 'Password Manager'",
+    "function": "Google Chrome",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "If this setting is enabled, Chrome will memorize passwords and automatically provide them when a user logs into a site. By disabling this feature the user will be prompted to enter their password each time they visit a website.",
+    "impact": 5
+  },
+  "scid-23": {
+    "platform": "Windows",
+    "name": "Enable 'Block third party cookies'",
+    "function": "Google Chrome",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Chrome allows cookies to be set by web page elements that are not from the domain in the user's address bar. Enabling this feature prevents third party cookies from being set.",
+    "impact": 2
+  },
+  "scid-24": {
+    "platform": "Windows",
+    "name": "Set 'Remote Desktop security level' to 'TLS'",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the method used by the server and client for authentication prior to a remote desktop connection being established.",
+    "impact": 8
+  },
+  "scid-25": {
+    "platform": "Windows",
+    "name": "Enable 'Local Security Authority (LSA) protection'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Forces LSA to run as Protected Process Light (PPL).",
+    "impact": 8
+  },
+  "scid-26": {
+    "platform": "Windows",
+    "name": "Enable 'Safe DLL Search Mode'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether an application searches for DLLs in the system path before searching the current working directory .",
+    "impact": 8
+  },
+  "scid-27": {
+    "platform": "Windows",
+    "name": "Set User Account Control (UAC) to automatically deny elevation requests",
+    "function": "OS",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the behavior of the elevation prompt for standard users.",
+    "impact": 8
+  },
+  "scid-28": {
+    "platform": "Windows",
+    "name": "Set 'Interactive logon: Machine inactivity limit' to '1-900 seconds'",
+    "function": "OS",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the amount of inactivity time (in seconds) of a logon session, beyond which the screen saver will run, locking the session. This security control is only applicable for machines with Windows 10, version 1709 or later.",
+    "impact": 5
+  },
+  "scid-29": {
+    "platform": "Windows",
+    "name": "Disable 'Enumerate administrator accounts on elevation'",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether the user needs to provide both the administrator username and password to elevate a running application, or if the system displays a list of administrator accounts to choose from.",
+    "impact": 8
+  },
+  "scid-30": {
+    "platform": "Windows",
+    "name": "Disable 'Insecure guest logons' in SMB",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether insecure guest logons are used by file servers to allow unauthenticated access to shared folders.",
+    "impact": 8
+  },
+  "scid-32": {
+    "platform": "Windows",
+    "name": "Set 'Minimum password length' to '14 or more characters'",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the minimum password length. This security control is only assessed for machines with Windows 10, version 1709 or later.",
+    "impact": 5
+  },
+  "scid-33": {
+    "platform": "Windows",
+    "name": "Set 'Enforce password history' to '24 or more password(s)'",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the number of unique new passwords that are required before an old password can be reused in association with a user account. This security control is only assessed for machines with Windows 10, version 1709 or later.",
+    "impact": 5
+  },
+  "scid-34": {
+    "platform": "Windows",
+    "name": "Set 'Maximum password age' to '60 or fewer days, but not 0'",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the period of time (in days) that a password can be used before the system requires the user to change it. This security control is only assessed for machines with Windows 10, version 1709 or later.",
+    "impact": 5
+  },
+  "scid-35": {
+    "platform": "Windows",
+    "name": "Set 'Minimum password age' to '1 or more day(s)'",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the number of days that you must use a password before you can change it. This security control is only assessed for machines with Windows 10, version 1709 or later.",
+    "impact": 5
+  },
+  "scid-36": {
+    "platform": "Windows",
+    "name": "Enable 'Domain member: Require strong (Windows 2000 or later) session key'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "When this policy setting is enabled, a secure channel can only be established with Domain controllers that are capable of encrypting secure channel data with a strong (128-bit) session key.",
+    "impact": 5
+  },
+  "scid-37": {
+    "platform": "Windows",
+    "name": "Enable 'Domain member: Digitally encrypt or sign secure channel data (always)'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether all secure channel traffic that is initiated by the domain member must be signed or encrypted.",
+    "impact": 5
+  },
+  "scid-38": {
+    "platform": "Windows",
+    "name": "Enable Set 'Domain member: Digitally encrypt secure channel data (when possible)'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether a domain member should attempt to negotiate encryption for all secure channel traffic that it initiates.",
+    "impact": 5
+  },
+  "scid-39": {
+    "platform": "Windows",
+    "name": "Enable 'Domain member: Digitally sign secure channel data (when possible)'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether a domain member should attempt to negotiate whether all secure channel traffic that it initiates must be digitally signed. Digital signatures protect the traffic from being modified by anyone who captures the data as it traverses the network.",
+    "impact": 5
+  },
+  "scid-40": {
+    "platform": "Windows",
+    "name": "Disable 'Domain member: Disable machine account password changes'",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether automatic password changes are enforced on computer accounts.",
+    "impact": 2
+  },
+  "scid-41": {
+    "platform": "Windows",
+    "name": "Set 'Account lockout duration' to 15 minutes or more",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the length of time that must pass before a locked account is unlocked and a user can try to log on again. If configured to 0, accounts will remain locked out until an administrator manually unlocks them. This security control is only assessed for machines with Windows 10, version 1709 or later.",
+    "impact": 6
+  },
+  "scid-42": {
+    "platform": "Windows",
+    "name": "Set 'Reset account lockout counter after' to 15 minutes or more",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the length of time before the 'Account lockout threshold' counter resets to zero after a failed logon attempt. This reset time must be less than or equal to the value of the 'Account lockout duration' setting. This security control is only assessed for machines with Windows 10, version 1709 or later.",
+    "impact": 6
+  },
+  "scid-43": {
+    "platform": "Windows",
+    "name": "Disable Microsoft Defender Firewall notifications when programs are blocked for Domain profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Firewall with Advanced Security display notifications to the user when a program is blocked from receiving inbound connections.",
+    "impact": 2
+  },
+  "scid-44": {
+    "platform": "Windows",
+    "name": "Set 'Account lockout threshold' to 1-10 invalid login attempts",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the number of failed logon attempts before the account is locked. The number of failed logon attempts should be reasonably small to minimize the possibility of a successful password attack, while still allowing for honest errors made during a legitimate user logon. This security control is only assessed for machines with Windows 10, version 1709 or later.",
+    "impact": 6
+  },
+  "scid-45": {
+    "platform": "Windows",
+    "name": "Set user authentication for remote connections by using Network Level Authentication to 'Enabled'",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether to require user authentication for remote connections to the RD Session Host server by using Network Level Authentication.",
+    "impact": 5
+  },
+  "scid-46": {
+    "platform": "Windows",
+    "name": "Disable Microsoft Defender Firewall notifications when programs are blocked for Private profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Firewall with Advanced Security display notifications to the user when a program is blocked from receiving inbound connections.",
+    "impact": 2
+  },
+  "scid-49": {
+    "platform": "Windows",
+    "name": "Disable Microsoft Defender Firewall notifications when programs are blocked for Public profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Firewall with Advanced Security display notifications to the user when a program is blocked from receiving inbound connections.",
+    "impact": 2
+  },
+  "scid-50": {
+    "platform": "Windows",
+    "name": "Disable merging of local Microsoft Defender Firewall rules with group policy firewall rules for the Public profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Controls whether local administrators are allowed to create local firewall rules that apply together with firewall rules configured by Group Policy. This recommendation is not applicable to Azure virtual machines.",
+    "impact": 5
+  },
+  "scid-51": {
+    "platform": "Windows",
+    "name": "Disable merging of local Microsoft Defender Firewall connection rules with group policy firewall rules for the Public profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Controls whether local administrators are allowed to create connection security rules that apply together with connection security rules configured by Group Policy. This recommendation is not applicable to Azure virtual machines.",
+    "impact": 5
+  },
+  "scid-52": {
+    "platform": "Windows",
+    "name": "Enable 'Apply UAC restrictions to local accounts on network logons'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "With User Account Control enabled, filtering the privileged token for built-in administrator accounts will prevent the elevated privileges of these accounts from being used over the network. This recommendation is not applicable for organizations which use local password management solution (like LAPS) to protect local accounts for remote administration and support.",
+    "impact": 5
+  },
+  "scid-53": {
+    "platform": "Windows",
+    "name": "Disable SMBv1 client driver",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Disabling SMBv1 support may prevent access to file or print sharing resources with systems or devices that only support SMBv1.",
+    "impact": 8
+  },
+  "scid-54": {
+    "platform": "Windows",
+    "name": "Disable SMBv1 server",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Disabling SMBv1 support may prevent access to file or print sharing resources with systems or devices that only support SMBv1.",
+    "impact": 8
+  },
+  "scid-55": {
+    "platform": "Windows",
+    "name": "Disable 'Network access: Let Everyone permissions apply to anonymous users'",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether anonymous network users have the same rights and permissions as the built-in 'Everyone' group.. This security control is only assessed for machines on Windows 10, version 1709 or later.",
+    "impact": 5
+  },
+  "scid-57": {
+    "platform": "Windows",
+    "name": "Disable 'WDigest Authentication'",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "When the WDigest Authentication protocol is enabled, plain text passwords are stored in the Local Security Authority Subsystem Service (LSASS) exposing them to theft.",
+    "impact": 5
+  },
+  "scid-58": {
+    "platform": "Windows",
+    "name": "Disable 'Installation and configuration of Network Bridge on your DNS domain network'",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether a user can install and configure the Network Bridge. The Network Bridge allows users to create a layer 2 MAC bridge, enabling them to connect two or more network segments together.",
+    "impact": 5
+  },
+  "scid-59": {
+    "platform": "Windows",
+    "name": "Enable 'Require domain users to elevate when setting a network's location'",
+    "function": "Network",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether to require domain users to elevate when setting a network's location.",
+    "impact": 2
+  },
+  "scid-60": {
+    "platform": "Windows",
+    "name": "Prohibit use of Internet Connection Sharing on your DNS domain network",
+    "function": "Network",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Restricted"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether an existing internet connection, such as through wireless, can be shared and used by other systems essentially creating a mobile hotspot.",
+    "impact": 5
+  },
+  "scid-61": {
+    "platform": "Windows",
+    "name": "Set 'Minimum PIN length for startup' to '6 or more characters'",
+    "function": "OS",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines the minimum PIN length for authentication without sending a password to a network where it could be compromised.",
+    "impact": 5
+  },
+  "scid-62": {
+    "platform": "Windows",
+    "name": "Enable 'Require additional authentication at startup'",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether BitLocker requires additional authentication each time the computer starts, and whether you are using BitLocker with or without a Trusted Platform Module (TPM).",
+    "impact": 8
+  },
+  "scid-63": {
+    "platform": "Windows",
+    "name": "Disable 'Configure Offer Remote Assistance'",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether unsolicited offers of help to this computer via Remote Assistance are allowed. Help desk and support personnel will not be able to proactively offer assistance, although they can still respond to user assistance requests.",
+    "impact": 5
+  },
+  "scid-64": {
+    "platform": "Windows",
+    "name": "Restrict anonymous access to named pipes and Shares",
+    "function": "Network",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Restricted"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether anonymous access is restricted to only shares and pipes that are named.",
+    "impact": 8
+  },
+  "scid-65": {
+    "platform": "Windows",
+    "name": "Disable 'Store LAN Manager hash value on next password change'",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Controls whether or not a LAN Manager hash of the password is stored in the SAM the next time the password is changed.",
+    "impact": 8
+  },
+  "scid-66": {
+    "platform": "Windows",
+    "name": "Disable 'Always install with elevated privileges'",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Windows Installer always elevates privileges when installing applications.",
+    "impact": 8
+  },
+  "scid-67": {
+    "platform": "Windows",
+    "name": "Disable 'Autoplay for non-volume devices'",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether autoplay for non-volume devices (such as Media Transfer Protocol (MTP) devices) is enabled or disabled.",
+    "impact": 5
+  },
+  "scid-68": {
+    "platform": "Windows",
+    "name": "Disable 'Anonymous enumeration of SAM accounts'",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Controls the ability of anonymous users to enumerate the accounts in the Security Accounts Manager (SAM). If you enable this policy setting, users with anonymous connections will not be able to enumerate domain account user names on the systems in your environment.",
+    "impact": 8
+  },
+  "scid-69": {
+    "platform": "Windows",
+    "name": "Disable 'Autoplay' for all drives",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Autoplay is enabled on the device. Autoplay starts to read from a drive as soon as you insert media in the drive, which causes the setup file for programs or audio media to start immediately",
+    "impact": 8
+  },
+  "scid-70": {
+    "platform": "Windows",
+    "name": "Set default behavior for 'AutoRun' to 'Enabled: Do not execute any autorun commands'",
+    "function": "OS",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Autorun commands are allowed to execute. Autorun commands are generally stored in autorun.inf files. They often launch the installation program or other routines.",
+    "impact": 8
+  },
+  "scid-71": {
+    "platform": "Windows",
+    "name": "Enable 'Limit local account use of blank passwords to console logon only'",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether local accounts that are not password protected can be used to log on from locations other than the physical computer console. By enabling this configuration, local accounts that have blank passwords will not be able to log on to the network from remote client computers. Such accounts will only be able to log on at the keyboard of the computer.",
+    "impact": 5
+  },
+  "scid-72": {
+    "platform": "Windows",
+    "name": "Set LAN Manager authentication level to 'Send NTLMv2 response only. Refuse LM & NTLM'",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines which challenge/response authentication protocol is used for network logons. This choice affects the level of authentication protocol used by clients, the level of session security negotiated, and the level of authentication accepted by servers.",
+    "impact": 8
+  },
+  "scid-73": {
+    "platform": "Windows",
+    "name": "Disable 'Allow Basic authentication' for WinRM Client",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether the Windows Remote Management (WinRM) client uses Basic authentication.",
+    "impact": 8
+  },
+  "scid-74": {
+    "platform": "Windows",
+    "name": "Disable 'Allow Basic authentication' for WinRM Service",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether the Windows Remote Management (WinRM) service accepts Basic authentication.",
+    "impact": 8
+  },
+  "scid-80": {
+    "platform": "Windows",
+    "name": "Block Flash activation in Office documents",
+    "function": "Microsoft Office",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Flash can be used in office documents.",
+    "impact": 5
+  },
+  "scid-81": {
+    "platform": "Windows",
+    "name": "Set IPv6 source routing to highest protection",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether IPv6 source routing is enabled.",
+    "impact": 5
+  },
+  "scid-82": {
+    "platform": "Windows",
+    "name": "Disable IP source routing",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether IP source routing is enabled.",
+    "impact": 5
+  },
+  "scid-83": {
+    "platform": "Windows",
+    "name": "Enable Explorer Data Execution Prevention (DEP)",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Data Execution Prevention can be turned off for File Explorer.",
+    "impact": 5
+  },
+  "scid-87": {
+    "platform": "Windows",
+    "name": "Disable Solicited Remote Assistance",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Remote assistance allows another user to view or take control of the local session of a user. Solicited assistance is help that is specifically requested by the local user.",
+    "impact": 8
+  },
+  "scid-88": {
+    "platform": "Windows",
+    "name": "Disable Anonymous enumeration of shares",
+    "function": "OS",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether anonymous logon users (null session connections) are allowed to list all account names and enumerate all shared resources",
+    "impact": 8
+  },
+  "scid-89": {
+    "platform": "Windows",
+    "name": "Enable scanning of removable drives during a full scan",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "This setting controls whether or not to scan for malicious software and unwanted software in the contents of removable drives, such as USB flash drives, when running a full scan. This security control is only applicable for machines with Windows 10, version 1709 or later.",
+    "impact": 8
+  },
+  "scid-90": {
+    "platform": "Windows",
+    "name": "Enable Microsoft Defender Antivirus email scanning",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Antivirus analyzes the mail bodies and attachments and scans them for malicious content. MDMWinsOverGP configuration is not supported.",
+    "impact": 9
+  },
+  "scid-91": {
+    "platform": "Windows",
+    "name": "Enable Microsoft Defender Antivirus real-time behavior monitoring",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Antivirus monitors file processes, file and registry changes, and other events on your endpoints for suspicious and known malicious activity.",
+    "impact": 5
+  },
+  "scid-92": {
+    "platform": "Windows",
+    "name": "Enable Microsoft Defender Antivirus scanning of downloaded files and attachments",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Antivirus scans all downloaded files and attachments for malicious code.",
+    "impact": 10
+  },
+  "scid-93": {
+    "platform": "Windows",
+    "name": "Disable the local storage of passwords and credentials",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Credential Manager saves passwords or credentials locally for later use when it gains domain authentication.",
+    "impact": 5
+  },
+  "scid-94": {
+    "platform": "Windows",
+    "name": "Disable sending unencrypted password to third-party SMB servers",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether the SMB redirector will send unencrypted (plain text) passwords when authenticating to third-party SMB servers that do not support password encryption.",
+    "impact": 5
+  },
+  "scid-95": {
+    "platform": "Windows",
+    "name": "Enable 'Microsoft network client: Digitally sign communications (always)'",
+    "function": "Network",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether packet signing is required by the SMB client component. If this is enabled, the SMB client will only communicate with an SMB server that performs SMB packet signing.",
+    "impact": 5
+  },
+  "scid-96": {
+    "platform": "Windows",
+    "name": "Enable 'Network Protection'",
+    "function": "Network",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Network protection helps reduce the attack surface of your devices from Internet-based events. It prevents employees from using any application to access dangerous domains that may host phishing scams, exploits, and other malicious content on the Internet. It expands the scope of Windows Defender SmartScreen to block all outbound HTTP(s) traffic that attempts to connect to low-reputation sources (based on the domain or hostname) This security control is only assessed for machines with Windows...",
+    "impact": 8
+  },
+  "scid-97": {
+    "platform": "Windows",
+    "name": "Disable JavaScript on Adobe DC",
+    "function": "Adobe Acrobat",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether to globally disable and lock JavaScript execution in Adobe DC",
+    "impact": 5
+  },
+  "scid-102": {
+    "platform": "Windows",
+    "name": "Enable 'Local Security Authority (LSA) protection' on Windows 11 22h2 and higher",
+    "function": "OS",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Forces LSA to run as Protected Process Light (PPL). Set value to 1 to enable LSA protection with a UEFI variable, Set value to 2 to enable LSA protection without a UEFI variable, only enforced on Windows 11 version 22H2 and later.",
+    "impact": 8
+  },
+  "scid-103": {
+    "platform": "Windows",
+    "name": "Require LDAP client signing to prevent tampering and protect directory authentication",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Enforcing LDAP client signing requires all LDAP requests from clients to be cryptographically signed. This ensures the integrity and authenticity of LDAP traffic, confirming it hasn’t been altered in transit and that it originates from a trusted source. Without this setting, attackers can perform man-in-the-middle attacks and inject or manipulate LDAP communications, potentially leading to privilege escalation or unauthorized actions. Note on productivity impact: Some environments may still r...",
+    "impact": 7
+  },
+  "scid-104": {
+    "platform": "Windows",
+    "name": "Encrypt LDAP client traffic to protect sensitive data in transit",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Encrypted",
+      "1": "Encrypted"
+    },
+    "crossPlatform": null,
+    "description": "Enabling LDAP client confidentiality ensures that data exchanged between clients and Active Directory servers is encrypted and sealed. This protects sensitive directory information, such as usernames, group membership, and credentials, from being exposed over the network. While attackers can observe encrypted traffic, they cannot read or manipulate it, significantly reducing the risk of data leakage. Note on productivity impact: Some environments may still rely on LDAP for certain processes. ...",
+    "impact": 7
+  },
+  "scid-105": {
+    "platform": "Windows",
+    "name": "Enforce LDAP channel binding to protect authentication sessions from interception",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Channel binding ties the LDAP authentication layer to the underlying secure TLS channel, protecting against attacks that spoof or hijack sessions. It ensures that both ends of the connection verify the security context and that the client is communicating with the intended server. This setting helps enforce session integrity, particularly for LDAPS connections, by mitigating credential replay and man-in-the-middle risks. Note on productivity impact: Some environments may still rely on LDAP fo...",
+    "impact": 7
+  },
+  "scid-106": {
+    "platform": "Windows",
+    "name": "Require LDAP server signing to ensure integrity of directory traffic",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "This configuration enforces that LDAP servers (e.g., domain controllers) require signed requests from clients. Signing validates the integrity and origin of LDAP traffic, preventing tampering or spoofing of authentication requests. While attackers can still observe traffic, they cannot alter it without detection, reducing the chance of credential tampering or injection attacks. Note on productivity impact: Some environments may still rely on LDAP for certain processes. More details on how to ...",
+    "impact": 8
+  },
+  "scid-108": {
+    "platform": "Windows",
+    "name": "Disable Remote Registry Service on Windows",
+    "function": "Services",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "The Remote Registry service allows remote users to read and modify registry settings over the network. You can disable this service to reduce the remote attack surface, and to prevent unauthorized configuration changes, privilege escalation, and lateral movement. When Remote Registry is enabled, attackers can remotely connect to the registry of a device and alter security controls, establish persistence, or weaken defenses. Productivity considerations: When you disable Remote Registry, this m...",
+    "impact": 8
+  },
+  "scid-109": {
+    "platform": "Windows",
+    "name": "Disable NTLM authentication for Windows workstations",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "NTLM is an outdated and insecure authentication protocol that can be exploited through attacks such as Pass-the-Hash and NTLM relay. Modern alternatives like Kerberos offer stronger security and should be enforced wherever possible. This recommendation identifies systems that still allow NTLM and provides guidance to fully disable NTLM authentication. Without this setting, attackers can bypass password complexity, perform lateral movements using legitimate authentication, potentially resultin...",
+    "impact": 8
+  },
+  "scid-110": {
+    "platform": "Windows",
+    "name": "Block file transfer over RDP",
+    "function": "Shares",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Remote Desktop Protocol (RDP) enables remote access to devices, including the ability to transfer files between remote and local machines. Blocking the ability to transfer files over RDP reduces the risk of data exfiltration and prevents attackers from moving malicious files into the environment. Without this setting, attackers can use RDP sessions to bypass security controls and transfer sensitive data or malware.",
+    "impact": 7
+  },
+  "scid-111": {
+    "platform": "Windows",
+    "name": "SMB server security hardening against authentication relay attacks",
+    "function": "Security Control",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "To block credential relay attacks, Extended Protection for Authentication (EPA) enforces SPN validation and channel binding. This ensures that authentication is bound to the correct service, and block attacks. To add integrity and confidentiality, Defender Vulnerability Management uses: * Server Message Block (SMB) signing to verify message authenticity and prevent tampering during transit. * SMB encryption to protect sensitive or untrusted networks, by encrypting SMB traffic end-to-end. With...",
+    "impact": 8
+  },
+  "scid-2000": {
+    "platform": "Windows",
+    "name": "Turn on Microsoft Defender for Endpoint sensor",
+    "function": "EDR",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether the Microsoft Defender for Endpoint sensor embedded in Windows collect and process behavioral signals from the operating system and sends this sensor data to your private, isolated, cloud instance of Microsoft Defender for Endpoint",
+    "impact": 10
+  },
+  "scid-2001": {
+    "platform": "Windows",
+    "name": "Fix Microsoft Defender for Endpoint sensor data collection",
+    "function": "EDR",
+    "compliance": {
+      "0": "Issues",
+      "1": "Working"
+    },
+    "crossPlatform": [
+      "scid-6001"
+    ],
+    "description": "The Microsoft Defender for Endpoint service relies on sensor data collection to determine the security state of a machine.",
+    "impact": 10
+  },
+  "scid-2002": {
+    "platform": "Windows",
+    "name": "Fix Microsoft Defender for Endpoint impaired communications",
+    "function": "EDR",
+    "compliance": {
+      "0": "Issues",
+      "1": "Working"
+    },
+    "crossPlatform": [
+      "scid-6002"
+    ],
+    "description": "This status indicates that there's limited communication between the machine and the Microsoft Defender for Endpoint service.",
+    "impact": 10
+  },
+  "scid-2003": {
+    "platform": "Windows",
+    "name": "Turn on Tamper Protection",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Tamper Protection essentially locks Microsoft Defender for Endpoint and prevents your security settings from being changed through apps and methods such as editing registry values, changing settings through PowerShell cmdlets and editing or removing security settings through group policies. This security control is only applicable for machines with Windows 10, version 1709 or later.",
+    "impact": 8
+  },
+  "scid-2010": {
+    "platform": "Windows",
+    "name": "Turn on Microsoft Defender Antivirus",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Antivirus is configured to run and scan for malware and other potentially unwanted software.",
+    "impact": 10
+  },
+  "scid-2011": {
+    "platform": "Windows",
+    "name": "Update Microsoft Defender Antivirus definitions",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Outdated",
+      "1": "Updated"
+    },
+    "crossPlatform": [
+      "scid-6095"
+    ],
+    "description": "This status indicates that Microsoft Defender Antivirus definitions are not up to date.",
+    "impact": 9
+  },
+  "scid-2012": {
+    "platform": "Windows",
+    "name": "Turn on real-time protection",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "This status indicates that Microsoft Defender Antivirus real-time protection is disabled or that Microsoft Defender Antivirus is not the primary antivirus solution.",
+    "impact": 10
+  },
+  "scid-2013": {
+    "platform": "Windows",
+    "name": "Turn on PUA protection in block mode",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Enabling Potentially Unwanted Application (PUA) protection in block mode will block and automatically quarantine potentially unwanted applications. PUA protection blocking takes effect on endpoint clients after the next signature update or computer restart.",
+    "impact": 9
+  },
+  "scid-2014": {
+    "platform": "Windows",
+    "name": "Fix Windows Defender Antivirus cloud service connectivity",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Issues",
+      "1": "Working"
+    },
+    "crossPlatform": null,
+    "description": "Indicates that a device is failing to communicate with the Windows Defender Antivirus cloud service.",
+    "impact": 8
+  },
+  "scid-2016": {
+    "platform": "Windows",
+    "name": "Enable cloud-delivered protection",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Indicates that Microsoft Defender Antivirus cloud-delivered protection is not enabled. Cloud-delivered protection service provides very important protection against malware on your endpoints and across your network. Learn more about cloud-delivered protection",
+    "impact": 8
+  },
+  "scid-2021": {
+    "platform": "Windows",
+    "name": "Set controlled folder access to enabled or audit mode",
+    "function": "Exploit Guard",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "This status indicated that controlled folder access is disabled. Controlled folder access helps protect files in key system folders from changes made by malicious and suspicious apps, including file-encrypting ransomware malware. Requires Microsoft Defender Antivirus Real-time protection. This security control is only assessed for machines on Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 8
+  },
+  "scid-2030": {
+    "platform": "Linux",
+    "name": "Update Microsoft Defender for Endpoint core components",
+    "function": "EDR",
+    "compliance": {
+      "0": "Outdated",
+      "1": "Updated"
+    },
+    "crossPlatform": null,
+    "description": "Indicates that the Microsoft Defender for Endpoint EDR sensor (Windows Server 2012 R2, 2016) or Microsoft Defender for Endpoint agent (Linux, macOS) installed on the machine is not up to date.",
+    "impact": 10
+  },
+  "scid-2060": {
+    "platform": "Windows",
+    "name": "Set Microsoft Defender SmartScreen app and file checking to block or warn",
+    "function": "SmartScreen",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "SmartScreen helps protect PCs by warning users before running potentially malicious programs downloaded from the Internet. This security control is only assessed for machines on Windows 10, version 1703 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2061": {
+    "platform": "Windows",
+    "name": "Set Microsoft Defender SmartScreen Microsoft Edge site and download checking to block or warn",
+    "function": "SmartScreen",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Microsoft Defender SmartScreen provides warning messages to help protect your employees from potential phishing scams and malicious software. This security control is only assessed for machines on Windows 10, version 1703 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2070": {
+    "platform": "Windows",
+    "name": "Turn on Microsoft Defender Firewall",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Microsoft Defender Firewall is designed to keep hackers and malicious software from gaining access to your device through a network or the Internet. This security control is only assessed for machines on Windows 10, version 1709 or later, and Windows Server 2008 R2, 2012 R2, 2016 and 2019.",
+    "impact": 10
+  },
+  "scid-2071": {
+    "platform": "Windows",
+    "name": "Secure Microsoft Defender Firewall domain profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Not Secure",
+      "1": "Secure"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether Microsoft Defender Firewall uses the settings for this profile to filter network traffic for the Domain Network profile. This security control is only assessed for machines on Windows 10, version 1709 or later, and Windows Server 2008 R2, 2012 R2, 2016 and 2019.",
+    "impact": 9
+  },
+  "scid-2072": {
+    "platform": "Windows",
+    "name": "Secure Microsoft Defender firewall private profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Not Secure",
+      "1": "Secure"
+    },
+    "crossPlatform": null,
+    "description": "Microsoft Defender Firewall is designed to keep hackers and malicious software from gaining access to your device through a network or the Internet. Turn on to have Microsoft Defender Firewall use the settings for the Private Network profile to filter network traffic. This security control is only assessed for machines on Windows 10, version 1709 or later, and Windows Server 2008 R2, 2012 R2, 2016 and 2019.",
+    "impact": 9
+  },
+  "scid-2073": {
+    "platform": "Windows",
+    "name": "Secure Microsoft Defender Firewall public profile",
+    "function": "Firewall",
+    "compliance": {
+      "0": "Not Secure",
+      "1": "Secure"
+    },
+    "crossPlatform": null,
+    "description": "Microsoft Defender Firewall is designed to keep hackers and malicious software from gaining access to your device through a network or the Internet. This security control is only assessed for machines on Windows 10, version 1709 or later, and Windows Server 2008 R2, 2012 R2, 2016 and 2019.",
+    "impact": 9
+  },
+  "scid-2080": {
+    "platform": "Windows",
+    "name": "Turn on Microsoft Defender Credential Guard",
+    "function": "Credential Guard",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Microsoft Defender Credential Guard uses virtualization-based security to isolate secrets so that only privileged system software can access them. This control is assessed on devices running Windows 10, version 1709 or later, and Windows Server 2019. To determine status, the system checks whether Credential Guard is both configured and running, meaning that both SecurityServicesConfigured and SecurityServicesRunning properties return a value of 1 - based on the output of the PowerShell comman...",
+    "impact": 8
+  },
+  "scid-2090": {
+    "platform": "Windows",
+    "name": "Encrypt all BitLocker-supported drives",
+    "function": "Bitlocker",
+    "compliance": {
+      "0": "Not Encrypted",
+      "1": "Encrypted"
+    },
+    "crossPlatform": null,
+    "description": "BitLocker Drive Encryption is a data protection feature that integrates with the operating system and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers. This security control is only assessed for machines on Windows 10, version 1803 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2091": {
+    "platform": "Windows",
+    "name": "Resume BitLocker protection on all drives",
+    "function": "Bitlocker",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "BitLocker Drive Encryption is a data protection feature that integrates with the operating system and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers. This security control is only assessed for machines on Windows 10, version 1803 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2093": {
+    "platform": "Windows",
+    "name": "Ensure BitLocker drive compatibility",
+    "function": "Bitlocker",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "BitLocker Drive Encryption is a data protection feature that integrates with the operating system and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers. This security control is only assessed for machines on Windows 10, version 1803 or later, and Windows Server 2019.",
+    "impact": 8
+  },
+  "scid-2500": {
+    "platform": "Windows",
+    "name": "Block executable content from email client and webmail",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule blocks executable and script files (such as .exe, .dll, .scr, .ps, .vbs, .js) from launching from email in Microsoft Outlook or Outlook.com and other popular webmail providers. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2501": {
+    "platform": "Windows",
+    "name": "Block all Office applications from creating child processes",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule blocks Office apps from creating child processes. This includes Word, Excel, PowerPoint, OneNote, and Access. Note: Some legitimate line-of-business applications might also use behaviors like this, including spawning a command prompt or using PowerShell to configure registry settings. This security control is only a...",
+    "impact": 9
+  },
+  "scid-2502": {
+    "platform": "Windows",
+    "name": "Block Office applications from creating executable content",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule prevents Office apps, including Word, Excel, and PowerPoint, from creating executable content. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2503": {
+    "platform": "Windows",
+    "name": "Block Office applications from injecting code into other processes",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule blocks code injection attempts from Office apps into other processes. There are no known legitimate business purposes for using code injection This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2504": {
+    "platform": "Windows",
+    "name": "Block JavaScript or VBScript from launching downloaded executable content",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule prevents JavaScript and VBScript from being allowed to launch apps. Note: This isn't a common line-of-business use, but line-of-business applications sometimes use scripts to download and launch installers. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Serv...",
+    "impact": 9
+  },
+  "scid-2505": {
+    "platform": "Windows",
+    "name": "Block execution of potentially obfuscated scripts",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule prevents scripts that appear to be obfuscated from running. It uses the AntiMalwareScanInterface (AMSI) to determine if a script is potentially obfuscated, and then blocks such a script, or blocks scripts when an attempt is made to access them. This security control is only applicable for machines with Windows 10, v...",
+    "impact": 9
+  },
+  "scid-2506": {
+    "platform": "Windows",
+    "name": "Block Win32 API calls from Office macros",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule prevents using Win32 APIs in VBA macros. Note: Most organizations don't use this functionality, but might still rely on using other macro capabilities. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2507": {
+    "platform": "Windows",
+    "name": "Block executable files from running unless they meet a prevalence, age, or trusted list criterion",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule blocks executable files (such as .exe, .dll, .scr) from launching unless they either meet prevalence or age criteria, or they're in a trusted list or exclusion list. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2508": {
+    "platform": "Windows",
+    "name": "Use advanced protection against ransomware",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule scans executable files entering the system to determine whether they're trustworthy. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2509": {
+    "platform": "Windows",
+    "name": "Block credential stealing from the Windows local security authority subsystem (lsass.exe)",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule locks down LSASS. This security control is only applicable for machines with LSA protection not running.",
+    "impact": 9
+  },
+  "scid-2510": {
+    "platform": "Windows",
+    "name": "Block process creations originating from PSExec and WMI commands",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule blocks processes through PsExec and WMI commands from running. Warning: This rule is incompatible with management through System Center Configuration Manager because this rule blocks WMI commands the SCCM client uses to function correctly. This security control is only applicable for machines with Windows 10, versio...",
+    "impact": 9
+  },
+  "scid-2511": {
+    "platform": "Windows",
+    "name": "Block untrusted and unsigned processes that run from USB",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule allows admins to prevent unsigned or untrusted executable and script files (such as .exe, .dll, .scr, .ps, .vbs, .js) from running from USB removable drives, including SD cards. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2512": {
+    "platform": "Windows",
+    "name": "Block Office communication application from creating child processes",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule prevents Outlook from creating child processes, while still allowing legitimate Outlook functions. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2513": {
+    "platform": "Windows",
+    "name": "Block Adobe Reader from creating child processes",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule prevents Adobe Reader from creating additional child processes. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2514": {
+    "platform": "Windows",
+    "name": "Block persistence through WMI event subscription",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule allows admins to have more control over WMI repository persistence. This security control is only applicable for machines with Windows 10, version 1903 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2515": {
+    "platform": "Windows",
+    "name": "Block abuse of exploited vulnerable signed drivers",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule prevents an application from writing a vulnerable signed driver to disk. This security control is only applicable for machines with Windows 10, version 1709 or later, and Windows Server 2019.",
+    "impact": 9
+  },
+  "scid-2517": {
+    "platform": "Windows",
+    "name": "Block use of copied or impersonated system tools",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This ASR rule blocks the use of executable files that are identified as copies of Windows system tools. These files are either duplicates or impostors of the original system tools. This rule prevents propagation and execution of such duplicates and impostors of the system tools on Windows machines.",
+    "impact": 9
+  },
+  "scid-2518": {
+    "platform": "Windows",
+    "name": "Block rebooting machine in Safe Mode",
+    "function": "Attack Surface Reduction",
+    "compliance": {
+      "0": "Allowed",
+      "1": "Blocked"
+    },
+    "crossPlatform": null,
+    "description": "Attack Surface Reduction (ASR) rules are the most effective method for blocking the most common attack techniques being used in cyber attacks and malicious software. This rule prevents the execution of commands to restart machines in Safe Mode. Safe Mode is a diagnostic mode that only loads the essential files and drivers needed for Windows to run. This ASR rule blocks processes from restarting machines in Safe Mode.",
+    "impact": 9
+  },
+  "scid-3001": {
+    "platform": "Windows",
+    "name": "Fix unquoted service path for Windows services",
+    "function": "Services",
+    "compliance": {
+      "0": "Issues",
+      "1": "Working"
+    },
+    "crossPlatform": null,
+    "description": "Determines the existence on the machine of one or more services, which are configured with a path to executable that contains spaces and also isn't surrounded by quotation marks..",
+    "impact": 8
+  },
+  "scid-3002": {
+    "platform": "Windows",
+    "name": "Change service executable path to a common protected location",
+    "function": "Services",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "Determines the existence on the machine of one or more services, which are configured with a path to executable that is stored in an uncommon/unprotected folder location.",
+    "impact": 8
+  },
+  "scid-3003": {
+    "platform": "Windows",
+    "name": "Change service account to avoid cached password in windows registry",
+    "function": "Services",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "Determines the existence on the machine of one or more services, which are configured to run with account that stores its password in reversible encryption in the registry.",
+    "impact": 8
+  },
+  "scid-3010": {
+    "platform": "Windows",
+    "name": "Disable the built-in Administrator account",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether the built-in Administrator account is disabled.",
+    "impact": 8
+  },
+  "scid-3011": {
+    "platform": "Windows",
+    "name": "Disable the built-in Guest account",
+    "function": "Accounts",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Determines whether the built-in Guest account is disabled.",
+    "impact": 8
+  },
+  "scid-5001": {
+    "platform": "macOS",
+    "name": "Fix Microsoft Defender for Endpoint sensor data collection in macOS",
+    "function": "Sensor Data Collection",
+    "compliance": {
+      "0": "Issues",
+      "1": "Working"
+    },
+    "crossPlatform": [
+      "scid-2001",
+      "scid-6001"
+    ],
+    "description": "Ensures proper data collection from the Defender for Endpoint sensor on macOS"
+  },
+  "scid-5002": {
+    "platform": "macOS",
+    "name": "Fix Microsoft Defender for Endpoint impaired communications in macOS",
+    "function": "Impaired Communications",
+    "compliance": {
+      "0": "Impaired",
+      "1": "Good"
+    },
+    "crossPlatform": [
+      "scid-2002",
+      "scid-6002"
+    ],
+    "description": "Resolves communication issues between macOS endpoint and Defender cloud service"
+  },
+  "scid-5007": {
+    "platform": "macOS",
+    "name": "Turn on Firewall in macOS",
+    "function": "Firewall Enabled",
+    "compliance": {
+      "0": "Off",
+      "1": "On"
+    },
+    "crossPlatform": [
+      "scid-2070"
+    ],
+    "description": "Enables the built-in macOS firewall protection"
+  },
+  "scid-5090": {
+    "platform": "macOS",
+    "name": "Turn on Microsoft Defender Antivirus real-time protection in macOS",
+    "function": "Realtime Protection",
+    "compliance": {
+      "0": "Off",
+      "1": "On"
+    },
+    "crossPlatform": [
+      "scid-2012",
+      "scid-6090"
+    ],
+    "description": "Enables continuous monitoring and scanning on macOS systems"
+  },
+  "scid-5091": {
+    "platform": "macOS",
+    "name": "Turn on Microsoft Defender Antivirus PUA protection in block mode in macOS",
+    "function": "PUA Protection",
+    "compliance": {
+      "0": "Off",
+      "1": "Blocking"
+    },
+    "crossPlatform": [
+      "scid-2013",
+      "scid-6091"
+    ],
+    "description": "Blocks potentially unwanted applications on macOS systems"
+  },
+  "scid-5092": {
+    "platform": "macOS",
+    "name": "Turn on Tamper Protection for MacOS",
+    "function": "Tamper Protection",
+    "compliance": {
+      "0": "Off",
+      "1": "On"
+    },
+    "crossPlatform": [
+      "scid-2003"
+    ],
+    "description": "Prevents unauthorized modification of security settings on macOS"
+  },
+  "scid-5094": {
+    "platform": "macOS",
+    "name": "Enable Microsoft Defender Antivirus cloud-delivered protection in macOS",
+    "function": "Cloud Protection",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": [
+      "scid-2016",
+      "scid-6094"
+    ],
+    "description": "Leverages Microsoft cloud intelligence for enhanced threat detection on macOS"
+  },
+  "scid-5095": {
+    "platform": "macOS",
+    "name": "Update Microsoft Defender Antivirus definitions in macOS",
+    "function": "AV Definitions Updated",
+    "compliance": {
+      "0": "Outdated",
+      "1": "Updated"
+    },
+    "crossPlatform": [
+      "scid-2011",
+      "scid-6095"
+    ],
+    "description": "Ensures antivirus signatures are current on macOS systems"
+  },
+  "scid-6001": {
+    "platform": "Linux",
+    "name": "Fix Microsoft Defender for Endpoint sensor data collection for Linux",
+    "function": "EDR",
+    "compliance": {
+      "0": "Issues",
+      "1": "Working"
+    },
+    "crossPlatform": [
+      "scid-2001"
+    ],
+    "description": "The Microsoft Defender for Endpoint service relies on sensor data collection to determine the security state of a machine.",
+    "impact": 10
+  },
+  "scid-6002": {
+    "platform": "Linux",
+    "name": "Fix Microsoft Defender for Endpoint impaired communications for Linux",
+    "function": "EDR",
+    "compliance": {
+      "0": "Issues",
+      "1": "Working"
+    },
+    "crossPlatform": [
+      "scid-2002"
+    ],
+    "description": "This status indicates that there's limited communication between the machine and the Microsoft Defender for Endpoint service.",
+    "impact": 10
+  },
+  "scid-6014": {
+    "platform": "Linux",
+    "name": "Unrestricted Access Accounts for Linux",
+    "function": "OS",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "This settings makes sure that only \"root\" will have unrestricted access.",
+    "impact": 6
+  },
+  "scid-6090": {
+    "platform": "Linux",
+    "name": "Turn on Microsoft Defender Antivirus real-time protection for Linux",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "This status indicates that Microsoft Defender Antivirus real-time protection is disabled or Microsoft Defender Antivirus is not in passive mode.",
+    "impact": 10
+  },
+  "scid-6091": {
+    "platform": "Linux",
+    "name": "Turn on Microsoft Defender Antivirus PUA protection in block mode for Linux",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Enabling Potentially Unwanted Application (PUA) protection in block mode will block and automatically quarantine potentially unwanted applications. PUA protection blocking takes effect on endpoint clients after the next signature update or computer restart.",
+    "impact": 9
+  },
+  "scid-6094": {
+    "platform": "Linux",
+    "name": "Enable Microsoft Defender Antivirus cloud-delivered protection for Linux",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "Indicates that Microsoft Defender Antivirus cloud-delivered protection is not enabled. Cloud-delivered protection service provides very important protection against malware on your endpoints and across your network. Learn more about cloud-delivered protection",
+    "impact": 8
+  },
+  "scid-6095": {
+    "platform": "Linux",
+    "name": "Update Microsoft Defender Antivirus definitions for Linux",
+    "function": "Antivirus",
+    "compliance": {
+      "0": "Outdated",
+      "1": "Updated"
+    },
+    "crossPlatform": [
+      "scid-2011"
+    ],
+    "description": "This status indicates that Microsoft Defender Antivirus definitions are not up to date.",
+    "impact": 9
+  },
+  "scid-6100": {
+    "platform": "Windows",
+    "name": "Enable 'Microsoft Defender for Endpoint Plug-in for WSL'",
+    "function": "EDR",
+    "compliance": {
+      "0": "Disabled",
+      "1": "Enabled"
+    },
+    "crossPlatform": null,
+    "description": "The Windows Subsystem for Linux (WSL) 2, which replaces the previous version of WSL (supported by Microsoft Defender for Endpoint without a plug-in), provides a Linux environment that is seamlessly integrated with Windows yet isolated using virtualization technology. The MDE plug-in for WSL enables Defender for Endpoint to provide more visibility into all running WSL containers, by plugging into the isolated subsystem.",
+    "impact": 5
+  },
+  "scid-6101": {
+    "platform": "Windows",
+    "name": "Turn off custom kernel/commandline in Windows Subsystem for Linux",
+    "function": "EDR",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Microsoft Defender for Endpoint plug-in for WSL does not support use of custom kernel/commandline in WSL2.",
+    "impact": 5
+  },
+  "scid-10000": {
+    "platform": "Linux",
+    "name": "Disable insecure administration protocol – Telnet",
+    "function": "Network",
+    "compliance": {
+      "0": "Enabled",
+      "1": "Disabled"
+    },
+    "crossPlatform": null,
+    "description": "Devices using Telnet are exposed to malicious threats because Telnet is not a secure and encrypted communication protocol. Use secure protocols such as SSH to administer devices.",
+    "impact": 5
+  },
+  "scid-10001": {
+    "platform": "Linux",
+    "name": "Require authentication for Telnet management interface",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "Telnet as a management interface allows admins to remotely manage devices. Without an authentication requirement, any user who has network access to these devices may compromise them. Update the device configuration to require authentication.",
+    "impact": 8
+  },
+  "scid-10002": {
+    "platform": "Linux",
+    "name": "Remove insecure administration protocols SNMP V1 and SNMP V2",
+    "function": "Network",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "Devices using SNMP V1 or V2 are vulnerable because SNMP V1 and V2 are not encrypted or secure communication protocols. Use a secure protocol such as SNMP V3 to administer devices.",
+    "impact": 5
+  },
+  "scid-10003": {
+    "platform": "Linux",
+    "name": "Require authentication for VNC management interface",
+    "function": "Network",
+    "compliance": {
+      "0": "Not Configured",
+      "1": "Configured"
+    },
+    "crossPlatform": null,
+    "description": "VNC as a management interface allows admins to remotely manage devices. Without an authentication requirement, any user who has network access to these devices may compromise them. Update the device configuration to require authentication.",
+    "impact": 6
+  },
+  "scid-20000": {
+    "platform": "Android",
+    "name": "Onboard devices to Microsoft Defender for Endpoint",
+    "function": "Onboard Devices",
+    "compliance": {
+      "0": "Non-Compliant",
+      "1": "Compliant"
+    },
+    "crossPlatform": null,
+    "description": "Ensures that discovered devices in your network are protected by an endpoint security solution. Onboarding devices increases visibility and control of networks.",
+    "impact": 9
+  }
+}
